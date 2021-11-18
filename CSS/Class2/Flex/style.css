@@ -1,7 +1,18 @@
+body {
+    margin: 0;
+}
+
 .flexbox {
     background-color: dodgerblue;
     display: flex;
-    flex-direction:row;
+    height: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Space between two elements
+    In the first exercise - You can use it to have space betweeen the elements
+    */
+    justify-content: space-around;
+    align-items:flex-end;
 }
 
 .flexbox div {
@@ -9,4 +20,9 @@
     font-size: 30px;
     margin: 10px;
     padding: 20px;
+}
+/* Exception */
+
+.flexbox div:nth-child(3){
+    flex-shrink: 0;
 }
