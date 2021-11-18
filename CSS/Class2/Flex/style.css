@@ -1,0 +1,12 @@
+.flexbox {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction:row;
+}
+
+.flexbox div {
+    background-color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+}
