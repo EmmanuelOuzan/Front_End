@@ -40,8 +40,16 @@ main {
     margin: auto;
     left: 12px;
     padding-left: 2%;
+    padding-right: 10px;
+    
 }
 #search {
     border-radius: 30px;
     font-size: 70%;
+    height: 37px;
+    padding-right: 40px;
+}
+.search i {
+  right: 10px;
+  top: 10px;
 }

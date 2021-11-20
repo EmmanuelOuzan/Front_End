@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+#a {
+    width: 70%;
+    flex-shrink: 0;
+}
+
+#green {
+    background-color: #baffc9;
+}
+
+#yellow {
+    background-color: #ffffba;
+}
+
+#red {
+    background-color: #ffb3ba;
+    width: 100%;
+}
+
+#blue {
+    background-color: #bae1ff;
+    width: 100%;
+}
+
+#orange {
+    background-color: #ffdfba;
+}

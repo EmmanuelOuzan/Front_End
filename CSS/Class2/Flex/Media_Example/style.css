@@ -6,10 +6,10 @@ body {
     width: 100px;
     height: 100px;
     background-color: black;
-    transition: 10s ;
+    transition: 2s ;
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:768px) {
     .box {
         background-color: blue;
         border-radius: 50px;
