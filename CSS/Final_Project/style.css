@@ -1,0 +1,40 @@
+ body {
+     margin: 0;
+     background-color: lightgray;
+ }
+
+ .banner {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 63%;
+     position: relative;
+ }
+
+ .banner .headlogo {
+     position: absolute;
+     border-radius: 90%;
+     width: 15%;
+     left: 0;
+     top: 80%;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+ }
+ .title { 
+    text-align: center;
+ }
+/* 
+ .container {
+     max-width: 800px;
+     margin: auto;
+     width: 100%;
+ }
+
+ .container div {
+     background-image: url(https://rabbisacks.org/wp-content/uploads/2021/05/website-banner-for-reflections.png);
+     background-position: center;
+     width: 100%;
+     height: 700px;
+     background-size: cover;
+ } */
